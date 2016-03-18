@@ -11,7 +11,7 @@ body {
     height: 80px;
     /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
     /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
-    background: url(../img/Sintitulo.png);
+    background: url(../img/mercury.png);
     border-radius: 50%;
     background-size: 210px;
     box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
@@ -20,6 +20,22 @@ body {
     -webkit-transition:all .5s ease-out;
     /*-moz-transition:all .5s ease-out;*/
 }
+
+.venus {
+    width: 80px;
+    height: 80px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/venus.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
 
 .earth {
     width: 80px;
@@ -33,18 +49,159 @@ body {
     /*-moz-transition:all 1.0s ease-out;*/
 }
 
+.mars {
+    width: 80px;
+    height: 80px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/mars.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
+.jupiter {
+    width: 80px;
+    height: 80px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/jupiter.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
+.saturn {
+    width: 80px;
+    height: 80px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/Sintitulo.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
+.uranus {
+    width: 120px;
+    height: 120px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/uranus.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
+.neptune {
+    width: 80px;
+    height: 80px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/neptune.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
+.pluton {
+    width: 80px;
+    height: 80px;
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    /*background: url("http://textures.forrest.cz/textures/library/maps/Mercury.jpg");*/
+    background: url(../img/Sintitulo.png);
+    border-radius: 50%;
+    background-size: 210px;
+    box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
+        /*box-shadow: inset 16px 0 40px 6px #fff,*/
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    -webkit-transition:all .5s ease-out;
+    /*-moz-transition:all .5s ease-out;*/
+}
+
 .earth:hover {
     -webkit-transform:scale(1.3);
     -webkit-animation: rotate 4s infinite linear, neon2 1.5s ease-in-out infinite alternate;
 /*    -moz-transform:scale(1.3);
-    -moz-animation: rotate 4s infinite linear, neon2 1.5s ease-in-out infinite alternate;*/
+    -moz-animation: rotate 4s infinite linear, neonearth 1.5s ease-in-out infinite alternate;*/
 }
+
+.mars:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neonMars 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
+.jupiter:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neonVenus 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
+.saturn:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neon3 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
+.uranus:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neonUrano 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
+.neptune:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neonNeptuno 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
+.pluton:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neon3 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
 .mercury:hover {
     -webkit-transform:scale(1.3);
     -webkit-animation: rotate 4s infinite linear, neon3 1.5s ease-in-out infinite alternate;
 /*    -moz-transform:scale(1.3);
     -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
 }
+
+.venus:hover {
+    -webkit-transform:scale(1.3);
+    -webkit-animation: rotate 4s infinite linear, neonVenus 1.5s ease-in-out infinite alternate;
+    /*    -moz-transform:scale(1.3);
+        -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
+}
+
 
 @keyframes rotate {
     from { background-position-x: 0px; }
@@ -70,9 +227,41 @@ body {
     }
 }
 
+@-webkit-keyframes neonMars {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #BB2424, 0 0 70px #BB2424, 0 0 80px #BB2424, 0 0 100px #BB2424, 0 0 150px #BB2424;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #BB2424, 0 0 35px #BB2424, 0 0 40px #BB2424, 0 0 50px #BB2424, 0 0 75px #BB2424;
+    }
+}
 
+@-webkit-keyframes neonVenus {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DFD63B, 0 0 70px #DFD63B, 0 0 80px #DFD63B, 0 0 100px #DFD63B, 0 0 150px #DFD63B;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DFD63B, 0 0 35px #DFD63B, 0 0 40px #DFD63B, 0 0 50px #DFD63B, 0 0 75px #DFD63B;
+    }
+}
 
+@-webkit-keyframes neonUrano {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #5099D4, 0 0 70px #5099D4, 0 0 80px #5099D4, 0 0 100px #5099D4, 0 0 150px #5099D4;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #5099D4, 0 0 35px #5099D4, 0 0 40px #5099D4, 0 0 50px #5099D4, 0 0 75px #5099D4;
+    }
+}
 
+@-webkit-keyframes neonNeptuno {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #5D42D9, 0 0 70px #5D42D9, 0 0 80px #5D42D9, 0 0 100px #5D42D9, 0 0 150px #5D42D9;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #5D42D9, 0 0 35px #5D42D9, 0 0 40px #5D42D9, 0 0 50px #5D42D9, 0 0 75px #5D42D9;
+    }
+}
 
 
 @-webkit-keyframes greenPulse {
