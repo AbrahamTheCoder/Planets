@@ -155,7 +155,7 @@ body {
 
 .jupiter:hover {
     -webkit-transform:scale(1.3);
-    -webkit-animation: rotate 4s infinite linear, neonVenus 1.5s ease-in-out infinite alternate;
+    -webkit-animation: rotate 4s infinite linear, neonJupiter 1.5s ease-in-out infinite alternate;
     /*    -moz-transform:scale(1.3);
         -moz-animation: rotate 4s infinite linear, greenPulse 1.5s ease-in-out infinite alternate;*/
 }
@@ -242,6 +242,15 @@ body {
     }
     to {
         box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DFD63B, 0 0 35px #DFD63B, 0 0 40px #DFD63B, 0 0 50px #DFD63B, 0 0 75px #DFD63B;
+    }
+}
+
+@-webkit-keyframes neonJupiter {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #D9A142, 0 0 70px #D9A142, 0 0 80px #D9A142, 0 0 100px #D9A142, 0 0 150px #D9A142;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #D9A142, 0 0 35px #D9A142, 0 0 40px #D9A142, 0 0 50px #D9A142, 0 0 75px #D9A142;
     }
 }
 
