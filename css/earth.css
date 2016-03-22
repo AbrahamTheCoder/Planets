@@ -40,7 +40,8 @@ body {
 .earth {
     width: 80px;
     height: 80px;
-    background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);
+    /*background: url(http://www.noirextreme.com/digital/Earth-Color4096.jpg);*/
+    background: url(../img/earth.png);
     border-radius: 50%;
     background-size: 210px;
     box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0),
