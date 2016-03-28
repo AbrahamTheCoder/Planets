@@ -18,40 +18,6 @@
     -moz-transition: all .5s ease-out;
 }
 
-/*.ring {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%; }
-
-.saturno .ring {
-    width: 2em;
-    height: 2em;
-    margin-top: -1em;
-    margin-left: -1em;
-    border: 0.3em solid rgba(160, 147, 130, 0.7);
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.saturno .ring:after {
-    border-radius: 50%;
-    position: absolute;
-    content: '';
-    top: 50%;
-    left: 50%;
-    width: 2.2em;
-    height: 2.2em;
-    margin-top: -1.1em;
-    margin-left: -1.1em;
-    border: 0.07em solid rgba(160, 147, 130, 0.5);
-    box-sizing: border-box;
-}
-
-.view-2D .ring {
-    transform: rotateX(90deg);
-}*/
-
 .rings {
     position: relative;
     width: 250%;
